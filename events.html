@@ -10,31 +10,42 @@
 			margin-top: 122px;
 			text-align: center;
 		}
-			.col-sm-3.left {
-				width: 20%;
-				padding-bottom: 20%;
-				overflow: hidden;
+			.row {
+				margin-top: 40px;
+				margin-left: 0;
+				margin-right: 0;
+				cursor: pointer;			
+			}
+			.row.top {
+				margin-top: 0px;
 			}
 				.col-sm-3.left {
 					background-color: rgba(204, 135, 39, 1);
 				}
-				.col-sm-3 img {
-					width: 50px;
-					height: auto;
-				}
-			.col-sm-4 {
-				padding-top: 5%;
-				text-align: left;
-			}
-				.col-sm-3 h1 {
-					position: absolute;
-					height: 50%;
-					width: 50%;
-					padding: 25% 25%;
-					text-align: center !important;
+			/*	.dummy {
+					margin-top: 100%;
+				}*/
+				.date {
+					/*position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;*/
+					text-align: center;
 					font-weight: 300;
-					font-size: 7em;
+					font-size: 6em;
+					
 				}
+			.col-sm-8 {
+				overflow: hidden !important;
+			}
+				.col-sm-8 p {
+					font-size: 1.3em;
+					padding-top: 5%;
+				}
+			
+			
+				
 	</style>
 	
 </head>
@@ -71,15 +82,28 @@
 	</div>
 	
 	<div class="container events">
+		<div class="row events top">
+			<div class="col-sm-3 left">
+				<!--<div class="dummy"></div>-->
+				<div class="date">
+					27 Aug
+				</div>
+			</div>
+			<div class="col-sm-8 col-sm-offset-1">
+				<h1>Walk for Rabies!</h1>
+				<p>Donate Local Pittsburgh is setting its sights on the end of rabies. Click to find out more!</p>
+				
+			</div>
+		</div>
 		<div class="row events">
-			<div class="col-sm-offset-1 col-sm-3 left">
-				<h1>27</h1>
+			<div class="col-sm-3 left">
+				<!--<div class="dummy"></div>-->
+				<div class="date">
+					24 Aug
+				</div>
 			</div>
-			<div class="col-sm-4">
-				<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-			</div>
-			<div class="col-sm-3">
-				<img src="images/fly.jpg" alt="" />
+			<div class="col-sm-8 col-sm-offset-1">
+				<h1>Fundraiser Event!</h1>
 			</div>
 		</div>
 	</div>
