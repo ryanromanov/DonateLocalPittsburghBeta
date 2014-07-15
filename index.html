@@ -2,15 +2,85 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title>Sorter</title>
+	<title>Donate Local Pittsburgh</title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
-	
-	
-	
+	<link rel="stylesheet" href="main.css" />
+	<style>
+		.html {
+			overflow-y: hidden !important;
+		}	
+		#footer {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  /* Set the fixed height of the footer here */
+		  height: 60px;
+		  background-color: rgba(255, 255, 255, 1);
+		}
+		@media (max-width: 767px) {
+			#footer {
+				visibility: hidden;
+			}
+		}
+	</style>
 </head>
 
 <body>
-
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Donate Local Pittsburgh</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="events.html">Events</a>
+					</li>
+					<li class="active">
+						<a href="blog.html">Blog</a>
+					</li>
+					<li class="active">
+						<a href="about.html">About</a>
+					</li>
+					<li class="active">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/front/front-1.jpg" alt="girl with glitter lips and eyebrows staring into your eyes" />
+			</div>
+			<div class="item">
+				<img src="images/front/front-2.jpg" alt="short-haired girl posing" width="100%" />
+			</div>
+			<div class="item">
+				<img src="images/front/front-3.jpg" alt="boy in nature" width="100%" />
+			</div>
+			<div class="item">
+				<img src="images/front/front-4.jpg" alt="girl laying on carpet" width="100%" />
+			</div>
+			<div class="item">
+				<img src="images/front/front-5.jpg" alt="flag girl" width="100%" />
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+	     <div class="container">
+	       <p class="text-muted"></p>
+	     </div>
+	</div>
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
