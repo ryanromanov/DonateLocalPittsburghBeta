@@ -6,6 +6,25 @@ li a:link {
 li a:visited {
 	background-color: rgba(35, 35, 35, 1) !important;
 }
+/* Link Customization */
+
+a:link {
+	color: rgba(0, 0, 0, 1);
+	text-decoration: none;
+}
+	a:visited {
+		color: rgba(0, 0, 0, 1);
+		text-decoration: none;
+	}
+	a:hover {
+		color: rgba(0, 0, 0, 1);
+		text-decoration: none;
+	}
+	a:active {
+		color: rgba(0, 0, 0, 1);
+		text-decoration: none;
+	}
+	
 /* Navbar Customization */
 .navbar.navbar-inverse {
 	border-bottom: none;

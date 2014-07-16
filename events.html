@@ -43,9 +43,11 @@
 					font-size: 1.3em;
 					padding-top: 5%;
 				}
+			.fadeIn {
+				display: none;
+			}
 			
 			
-				
 	</style>
 	
 </head>
@@ -71,6 +73,9 @@
 						<a href="blog.html">Blog</a>
 					</li>
 					<li class="active">
+						<a href="calendar.html">Calendar</a>
+					</li>
+					<li class="active">
 						<a href="about.html">About</a>
 					</li>
 					<li class="active">
@@ -82,34 +87,41 @@
 	</div>
 	
 	<div class="container events">
-		<div class="row events top">
-			<div class="col-sm-3 left">
-				<!--<div class="dummy"></div>-->
-				<div class="date">
-					27 Aug
+		<a href="latestAugust.html">
+			<div class="row events top fadeIn">
+				<div class="col-sm-3 left">
+					<!--<div class="dummy"></div>-->
+					<div class="date">
+						27 Aug
+					</div>
+				</div>
+				<div class="col-sm-8 col-sm-offset-1">
+					<h1>Walk for Rabies!</h1>
+					<p>Donate Local Pittsburgh is setting its sights on the end of rabies. Click to find out more!</p>
+					
 				</div>
 			</div>
-			<div class="col-sm-8 col-sm-offset-1">
-				<h1>Walk for Rabies!</h1>
-				<p>Donate Local Pittsburgh is setting its sights on the end of rabies. Click to find out more!</p>
-				
-			</div>
-		</div>
-		<div class="row events">
-			<div class="col-sm-3 left">
-				<!--<div class="dummy"></div>-->
-				<div class="date">
-					24 Aug
+		</a>
+		<a href="#">
+			<div class="row events fadeIn">
+				<div class="col-sm-3 left">
+					<!--<div class="dummy"></div>-->
+					<div class="date">
+						24 Aug
+					</div>
+				</div>
+				<div class="col-sm-8 col-sm-offset-1">
+					<h1>Fundraiser Event!</h1>
 				</div>
 			</div>
-			<div class="col-sm-8 col-sm-offset-1">
-				<h1>Fundraiser Event!</h1>
-			</div>
-		</div>
+		</a>
 	</div>
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script>
+	$(".fadeIn").fadeIn(800);
+</script>
 </body>
 
 </html>
